@@ -1,0 +1,461 @@
+﻿/* New GMC StyleSheets */
+
+/* General Tags */
+
+* {
+	margin:0;
+	padding:0;
+	font-size:100%;
+}
+a {
+	text-decoration:none;
+	color:#8E0E1A;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+}
+a:hover {
+	color:#FF9A00;	
+}
+
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+body {
+	background-color:#007F41;
+	background-image:url(../_images/body_bg.gif);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:100%;
+	color:#333333;
+	text-align:center;
+}
+
+/*=== Personalisation des pages ===*/
+/*page index*/
+#index #header{
+	background-image:url(../_images/incinerator.jpg);
+}
+
+#index #head_services{
+	color:#FFFE00;
+}
+/*page services*/
+#services #header{
+	background-image:url(../_images/services.jpg);
+}
+
+#services #head_services{
+	color:#06F3FF;
+}
+/*page carrier*/
+#carrier #header{
+	background-image:url(../_images/carrier.jpg);
+}
+
+#carrier #head_services{
+	color:#72F775;
+}
+/*page history*/
+#history #header{
+	background-image:url(../_images/history.jpg);
+}
+
+#history #head_services{
+	color:#72F775;
+}
+/*page responsability*/
+#responsability #header{
+	background-image:url(../_images/responsability.jpg);
+}
+
+#responsability #head_services{
+	color:#232325;
+}
+/*page contact*/
+#contact #header{
+	background-image:url(../_images/contact.jpg);
+}
+
+#contact #head_services{
+	color:#1A0F2B;
+}
+/*=== fin Personalisation des pages ===*/
+
+/* debut du style du container de page */
+#pageContainer {
+	width:955px;
+	margin: 0 auto;
+	padding:0;
+	text-align:left;
+	background-color:#FFF;
+	background-image:url(../_images/elt-01_bg.gif);
+	position:relative;
+	/*min-height:100%;
+	border:1px solid black;*/
+}
+/* fin du style du container de page */
+
+/* debut du style header */
+#header {
+	position:relative;
+	background-color:#222;
+	background-position:225px 0;
+	background-repeat:no-repeat;
+	background-image:url(../_images/incinerator.jpg);
+	/*border-bottom:5px groove #007F41;*/
+	height:241px;
+	width:955px;
+	font-size:12px;
+}
+
+#head_services {
+	position:absolute;
+	bottom:0;
+	right:1em;
+	margin: 0 0 .4em 1em;
+	color:#FFFE00;
+	width:400px;
+	font-size:1em;
+	font-weight:bold;
+	line-height:1.3em;
+}
+
+/*=== Personalisation des pages ===*/
+/*page index*/
+#index #header{
+	background-image:url(../_images/incinerator.jpg);
+}
+
+#index #head_services{
+	color:#FFFE00;
+}
+/*page services*/
+#services #header{
+	background-image:url(../_images/services.jpg);
+}
+
+#services #head_services{
+	color:#06F3FF;
+}
+/*page carrier*/
+#carrier #header{
+	background-image:url(../_images/carrier.jpg);
+}
+
+#carrier #head_services{
+	color:#72F775;
+}
+/*page history*/
+#history #header{
+	background-image:url(../_images/history.jpg);
+}
+
+#history #head_services{
+	color:#72F775;
+}
+/*page responsability*/
+#responsability #header{
+	background-image:url(../_images/responsability.jpg);
+}
+
+#responsability #head_services{
+	color:#232325;
+}
+/*page contact*/
+#contact #header{
+	background-image:url(../_images/contact.jpg);
+}
+
+#contact #head_services{
+	color:#1A0F2B;
+}
+/*=== fin Personalisation des pages ===*/
+
+/* menu gmc */
+#menuContainer{
+	width:100%;
+	background-color:#222;
+	height:30px;
+	padding-top:5px;
+	display:block;
+	text-align:left;
+	padding-bottom:0;
+	font-size:12px;
+	
+}
+
+#menu {
+	width:auto;
+	margin:0 4% 5px 4%;
+	height:25px;
+	color:#222;
+	line-height:25px;
+	padding:0;
+}
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#menu a {
+	text-decoration:none;
+	color:#222;
+	font-weight:bold;
+	display:block;
+	display : block; /* on change le type d'&eacute;l&eacute;ment, les liens deviennent des balises de type block */
+    padding : 0; /* aucune marge int&eacute;rieure */
+    text-decoration : none; /* on supprime le style par d&eacute;faut des liens (la plupart du temps = soulign&eacute;) */
+    text-align:center;
+    width : 12em; /* largeur relative 15 em */
+}
+#menu li{
+	float:left;
+	width:12em;
+	border-right:1px solid #052743;
+	background-image:url(../_images/elt-01_bg.gif);
+}
+#menu li ul /* Sous-listes */
+{ 
+        position: absolute; /* Position absolue */
+        width: 12em; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+#menu li ul li /* El&eacute;ments de sous-listes */
+{
+        /* pour ie qui ne reconna&icirc;t pas "transparent" (comme pr&eacute;c&eacute;demment) */
+        border-top : 1px solid #052743; /* on met une bordure blanche en haut de chaque &eacute;l&eacute;ment d'une sous-liste */
+		border-right:none;
+}
+#menu a:hover /* Lorsque la souris passe sur un des liens */    
+{
+		background:url(../_images/elt-02_bg.gif); /* changement de couleur d'arriere au passage de la souris*/
+		color: #ddd; /* changement de couleur du texte au passage de la souris */
+}
+#menu li:hover ul, #menu li.sfhover ul  /* Sous-listes lorsque la souris passe sur un &eacute;l&eacute;ment de liste*/
+{
+        left: auto; /* Repositionnement normal */
+        min-height: 0; /* Corrige un bug sous IE */
+}
+/* fin du menu */
+
+/*debut du corps de page */
+
+/*flottant droit du corps*/
+#content {
+	float:right;
+	margin:.5em 0 0 0;
+	padding:0 1em 35px 0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	width:703px;
+}
+#diapo {
+	width:100%;
+	background-color:#FFF;
+	height:50px;/*doit etre remplacer par la hauteur de la diapo reelle*/
+	margin-bottom:.5em;
+}
+#content h2 {
+	text-align:right;
+	background-color:#222;
+}
+.titleContent {
+	font-size:16px;
+	color:#BE0027;
+	display:block;
+	font-variant:small-caps;
+	font-family:"Trebuchet Ms", "Times New Roman", Times, serif;
+	width:15em;
+	height:25px;
+	line-height:25px;
+	margin-left:auto;
+	margin-bottom:1em;
+	padding:0 1em;
+	background-image:url(../_images/elt-01_bg.gif);
+	text-align:right;
+	border-bottom:1px solid #222;
+}
+.paragraph {
+	text-indent:1.3em;
+	text-align:justify;
+	margin: 0 0 .7em 0;
+}
+.note {
+	font-weight:bold;
+}
+.events{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.5em;
+	color:#BE0027;
+	display:block;
+	margin:1em 1em 1em 8em;
+}
+.evt-date {
+	color:#00552C;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+}
+.after-evt {
+	background-color:#093;
+	color:#FFF;
+	padding:.3em .5em .3em 1.5em;
+	margin:0 25em .5em 1em;
+	font-size:1.1em;
+	font-variant:small-caps;
+	display:block;
+}
+
+/*#content h2 {
+	color:#007F41 couleur du background du body
+}*/
+/*fin du flottant droit du corps*/
+
+/*debut du flottant gauche du corps*/
+#sidebar {
+	float:left;
+	width:17em;
+	margin:.5em -19em 35px 0;
+	padding-left:1em;
+	border:0px solid black;
+}
+#sidebar ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ul#sub1 {
+	margin: 0;
+	padding:0;
+	width:70%;
+}
+
+li ul#sub1 li{
+	margin: 0 0 0 5.5em;
+	padding:0 0 0 .5em;
+	border-bottom:none;
+	list-style-image:url(../_images/elt-02_bg.gif);
+}
+
+ul#subMenu{
+	margin:7em 0 1em 0;
+	border:0px solid blue;
+}
+ul#subMenu li{
+	width:80%;
+	padding:.2em 0;
+	border:0px solid blue;
+	border-bottom:1px solid #03F;
+}
+ul#subMenu a{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-variant:small-caps;
+	font-size:14px;
+	letter-spacing:.1em;
+}
+
+/*fin du flottant gauche du corps*/
+.clearfloat {
+	clear:both;
+	visibility:hidden;
+	height:1%;
+	padding-bottom:10px;
+}
+.order-list {
+	float:left;
+	width:275px;
+	font-family:"Trebuchet Ms", "Times New Roman", Times, serif;
+	font-size:18px;
+	color:#222;
+	list-style:none;
+}
+.order-list li {
+	margin:3px 0 0 10px;
+	
+}
+.unorder-list {
+	font-size:14px;
+	list-style:square;
+}
+.unorder-list li {
+	margin:0 0 .5em 0;
+}
+
+/*fin du corps de page*/
+
+/*pied de page*/
+#footer {
+	position:absolute;
+	left:0;
+	bottom:0;
+	height:35px;
+	width:955px;
+	background-color:#222;
+}
+#footer p {
+	width:945px;
+	margin:5px;
+	height:25px;
+	background-image:url(../_images/elt-01_bg.gif);
+	color:#222;
+	line-height:25px;
+}
+.copyright {
+	font-size:9px;
+	padding-left:3px;
+	display:block;
+	width:200px;
+	float:left;
+	background-color:#007F41;
+	margin:0;
+	color:#FFF;
+}
+.contact {
+	font-size:11px;
+	margin:0;
+	display:block;
+	height:18px;
+	line-height:18px;
+	text-align:center;
+	text-indent:0;
+	font-weight:normal;
+}
+#designer{
+	font-size:9px;
+	height:12px;
+	width:250px;
+	line-height:9px;
+	display:block;
+	text-align:right;
+	position:absolute;
+	right:0;
+	bottom:0;
+	background-image:url(../_images/elt-01_bg.gif);
+	border:none;
+	padding-right:10px;
+	margin-right:5px;
+	color:#005AAE;
+}
+#designer a{
+	text-decoration:none;
+	color:#8E0E1A;
+}
+#designer a:hover{
+	text-decoration:none;
+	color:#FC9B11;
+}
+#head-flash {
+	position:relative;
+	z-index:0;
+	top:0;
+}
+#contact_form{
+	width:400px;
+	margin:0 auto;
+}
+/*fin du pied de page*/
+
+div#flashAlign { text-align: center; }

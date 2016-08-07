@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* Css pour GMC-Nettoyage */
+html
+{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+body
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	text-align:center;
+	background-color:#007f41;
+	background-image:url(body_bg.gif);
+	background-repeat:repeat-y;
+	background-position:center;
+	color: #333333;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+}
+#page
+{
+	width:945px;
+	margin:0 auto;
+	text-align:left;
+	min-height:100%;
+	position:relative;
+	background-color:#fff;
+	background-image:url(page_bg.gif);
+	border-left:5px groove green;
+	border-right:5px groove green;
+}
+#header
+{
+	width:945px;
+	height:150px;
+	background-image:url(head_bg.gif);
+	background-repeat:repeat-x;
+	border-bottom:5px groove green;
+}
+#header #logo_01
+{
+	float:left;
+	margin:1em 2em;
+	width:258px;
+	height:80px;	
+}
+#head_services
+{
+	font-size:1.1em;
+	font-weight:bolder;
+	clear:both;
+	margin:0 0 0 .5em;
+	color:#036733;
+	text-align:justify;
+	line-height:1.3em;
+}
+#corps
+{
+	padding-bottom:40px;
+	width:760px;
+	margin:0 auto;
+}
+#flashcontent
+{
+	text-align:center;
+	margin:5px 0 0 0;
+	width:590px;
+	float:left;
+	height:378px;
+	
+}
+#news
+{
+	width:150px;
+	height:378px;
+	border-left: 3px groove #0087CA;
+	float:left;
+	margin: 5px 0 5px 5px;
+	padding:0 5px;
+	background-color:#EAF2FF;
+}
+#news h1
+{
+	text-align:center;
+	font-size:12px;
+	background-color:#fff;
+	background-image:url(head_bg.gif);
+	background-repeat:repeat-x;
+	border-bottom:3px groove #0087CA;
+	padding:0 0 5px 0;
+}
+
+#up_defil
+{
+	color:#0066FF;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	text-indent:.7em;
+	text-align:justify;
+	background-color:#fff;
+	border:2px groove #EAF2FF;
+	padding:0 .3em 0 .3em;
+}
+#copyrigth
+{
+	position:absolute;
+	bottom:0;
+	right:.5em;
+	color:#0066FF;
+	letter-spacing:.1em;
+}
+#copyrigth a 
+{
+	text-decoration:none;
+	color:#0066FF;
+}
+#copyrigth span
+{
+	color:#333333;
+}
+#footer
+{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	background-image:url(head_bg.gif);
+	background-repeat:repeat-x;
+	background-color:#fff;
+	height:35px;
+	border-top:5px groove green;
+}
+#footer div
+{
+	padding:0.3em .3em 0;
+	text-align:center;
+}

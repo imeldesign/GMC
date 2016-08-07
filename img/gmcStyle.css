@@ -1,0 +1,39 @@
+h1{
+	font-family:verdana,arial;
+	color: #00B75F;
+	font-size:14;
+	font-weight:bold;
+	margin-left:10;
+	margin-right:10;
+	leading:5;
+}
+
+h2{
+	font-family:"trebuchet ms", verdana,arial;
+	color: #336699;
+	font-weight:bold;
+	font-size:12;
+	margin-left:2;
+	margin-right:2;
+	leading:10;
+}
+
+p{
+	font-family:verdana, arial, georgia;
+	color: #565656
+	text-align:justify;
+	font-size:13;
+	margin-left:5;
+	margin-right:5;
+	leading:2;
+}
+
+.notes{
+	color:#007F41;
+	font-family:verdana,arial;
+	font-size:13;
+	font-weight:bold;
+	
+}
+
+	
